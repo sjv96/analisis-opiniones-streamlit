@@ -9,6 +9,9 @@ from nltk.corpus import stopwords
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 
 nltk.download('stopwords')
+nltk.download('punkt')
+
+nltk.download('stopwords')
 
 # Cargar datos
 df = pd.read_csv("opiniones_clientes.csv")
